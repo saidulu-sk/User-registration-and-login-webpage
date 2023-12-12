@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Page</title>
+    <style>
+        body{
+            background-color: rgb(65, 65, 117);
+            color: white;
+            text-align: center;
+        }
+        label{
+            width: 200px;
+            display: inline-block;
+        }
+        input{
+            width: 200px;
+            padding: 10px 20px;
+        }
+        #otp{
+            margin-left: 60px;
+            padding: 10px 20px;
+            background-color: rgb(240, 236, 30);
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        #otp:hover{
+            background-color: yellow;
+        }
+        #login{
+            padding: 10px 20px;
+            margin-left: 30px;
+            background-color: rgb(240, 236, 30);
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        #login:hover{
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2 align="center">Register Page</h2>
+        <br><br>
+        <form action="">
+                <label for="uname">Full Name : </label>
+                <input type="text" placeholder="fullname">
+                <br>
+                <br><br>
+                <label for="dob">Date of Birth : </label>
+                <input type="date" placeholder="DOB">
+                <br><br><br><br>
+                <label for="mailid">Email id : </label>
+                <input type="text" placeholder="mail id">
+                <br><br>
+                <label for="mobile">Mobile no : </label>
+                <input type="number" placeholder="mobile">
+                <br><br>
+                <button id="otp">send OTP</button><br><br>  
+                <label for="o">OTP : </label>
+                <input type="number" placeholder="Enter otp here">
+                <br><br>
+                <label for="uname">Username : </label>
+                <input type="text" placeholder="Enterusername">
+                <br><br>
+                <label for="pasword">Password</label>
+                <input type="text" placeholder="Create your own password">
+        </form>
+        <br><button id="login">Login</button>
+    </div>
+</body>
+</html>
